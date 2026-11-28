@@ -4,11 +4,11 @@ A console-based Student Management System developed using **C++ and Object-Orien
 
 ## Features
 
-- **Add Student:** Add a new student with roll number, name, course, and semester.
+- **Add Student:** Add a new student with ID, name, age, and course.
 - **Update Student:** Modify existing student information.
-- **Search Student:** Search student details using roll number.
+- **Search Student:** Search student details using Student ID.
 - **Display All Students:** View all registered student records.
-- **Enter Marks:** Enter marks for five different subjects.
+- **Enter Marks:** Enter marks for three different subjects.
 - **Generate Result:** Calculate total marks, percentage, grade, and PASS/FAIL status.
 
 ## Technologies Used
@@ -18,17 +18,18 @@ A console-based Student Management System developed using **C++ and Object-Orien
 ## OOP Concepts Demonstrated
 
 - Classes and Objects
-- Constructors
 - Member Functions
 - Data Members
+- Functions
 
 ## Other C++ Concepts Used
 
-- Arrays
+- Vectors
 - Loops
 - Conditional Statements
 - Functions
 - String Handling
+- File Handling
 
 ## 🚀 Getting Started
 
@@ -50,43 +51,43 @@ A console-based Student Management System developed using **C++ and Object-Orien
 3. Compile the source file:
 
    ```bash
-   g++ student2.cpp -o student2
+   g++ student.cpp -o student
    ```
 
 4. Run the program:
 
    **Windows:**
    ```powershell
-   .\student2.exe
+   .\student.exe
    ```
 
    **Linux / macOS:**
    ```bash
-   ./student2
+   ./student
    ```
 
 ## Available Operations
 
 When you run the program, you will see the following menu:
 
-1. Add Student Record
-2. Update Student Record
-3. Search Student Details
+1. Add Student
+2. Update Student
+3. Search Student
 4. Display All Students
 5. Enter Student Marks
-6. Generate Student Result Report
+6. Generate Result Report
 7. Exit
 
 ## ⚠️ Current Limitations
 
-- The system supports a maximum of 100 students.
-- Student records are stored in memory and are not saved after the program exits.
-- Each student can have marks for five subjects.
+- The system uses three subjects: English, Maths, and Science.
 - Each subject has a maximum of 100 marks.
+- Student records are stored in a `students.txt` file.
+- Records are automatically saved and loaded using file handling.
 
 ## 🎯 Project Objective
 
-The main objective of this project is to understand and implement Object-Oriented Programming concepts in C++ by developing a simple, interactive Student Management System.
+The main objective is to understand and implement Object-Oriented Programming concepts in C++ by developing a simple, interactive Student Management System.
 
 ---
 
